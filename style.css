@@ -32,6 +32,7 @@ img {
 /* ================================================================ */
 /*  GLOBAL  */
 /* ================================================================ */
+/* ================================================================ */
 
 body {
 	font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -2515,6 +2516,10 @@ section #search-box #search-text {
 	-moz-border-radius: 8px;
 	border-radius: 8px;
 }
+.contact-entry-name {
+	width: 80px;
+}
+
 
 
 /* ================================================================ */
@@ -2573,7 +2578,7 @@ section #search-box #search-text {
 .contact-photo-menu {
 	width: 11em;
 	border: 3px solid #3299BB;
-	color: #FFFFFF;
+	color: #E4E4E4;
 	background: #2D2D2D;
 	/* position: absolute;*/
 	position: relative;
@@ -2589,11 +2594,12 @@ section #search-box #search-text {
 .contact-photo-menu li a {
 	display: block; 
 	padding: 5px 10px; 
-	color: #2D2D2D;
+	color: #E4E4E4;
 	text-decoration: none;
 }
 .contact-photo-menu li a:hover {
-	background-color: #E4E4E4; 
+	background-color: #E4E4E4;
+	color: #2D2D2D;
 }
 
 
